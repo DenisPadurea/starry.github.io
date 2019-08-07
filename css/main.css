@@ -1,5 +1,5 @@
 .block-1{
-    background: url(../img/bg-1.jpeg) center no-repeat #ff5d90 / cover;
+    background: url(../img/bg-1.jpg) center no-repeat #ff5d90 / cover;
 }
 .block-1 .head{
     color: #fff;
@@ -305,7 +305,7 @@
     width: 216px;
     height: 224px;
     margin: 0 auto 20px;
-    background: url(../img/deliv-icon.jpeg) no-repeat;
+    background: url(../img/deliv-icon.jpg) no-repeat;
 }
 .block-7 .deliv-item:nth-child(1):before{
     background-position: 0 0;
@@ -320,7 +320,7 @@
     background-position: -648px 0;
 }
 .block-8{
-    background: url(../img/bg-2.jpeg) 50% 100% no-repeat #ff5d90;
+    background: url(../img/bg-2.jpg) 50% 100% no-repeat #ff5d90;
 }
 .block-8 .head{
     color: #fff;
@@ -432,9 +432,10 @@ ul.topmenu li a:hover {
         padding: 0 0 20px;
     }
     .block-1>.wrap{
-        height: 575px;
+        height: 610px;
         padding-top: 20px;
         padding-left: 10px;
+        margin-bottom:160px;
     }
     .block-1 h1{
         margin: 0 70px 25px 0;
@@ -528,7 +529,7 @@ ul.topmenu li a:hover {
 }
 @media screen and (max-width: 639px){
     .block-1{
-        background: url(../img/bg-1-320.jpeg) 50% 40px no-repeat #ff5d90;
+        background: url(../img/bg-1-320.jpg) 50% 125px no-repeat #ff5d90;
     }
     .block-1 .head .wrap {
         height: 60px;
@@ -541,10 +542,11 @@ ul.topmenu li a:hover {
     }
     .block-1>.wrap{
         height: 905px;
-        padding: 35px 10px 0;
+        padding: 10px 10px 0;
+        margin-bottom: 0;
     }
     .block-1 h1{
-        margin: 0px 0 307px;
+        margin: 0px 0 330px;
         font-size: 21px;
         line-height: 1.4em;
         text-align: center;
@@ -559,7 +561,8 @@ ul.topmenu li a:hover {
     }
     .block-1 .sale{
         text-align: center;
-        font-size: 36px;
+        font-size: 21px;
+        line-height: 20px;
     }
     .block-1 .sale:after{
         display: none;
@@ -630,7 +633,7 @@ ul.topmenu li a:hover {
         padding: 0 10px 40px;
     }
     .block-8{
-        background: url(../img/bg-2-320.jpeg) 50% 88px no-repeat #ff5d90;
+        background: url(../img/bg-2-320.jpg) 50% 88px no-repeat #ff5d90;
     }
     .block-8 .head h2{
         font-size: 20px;
